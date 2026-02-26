@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/13f545c8b938301b71c996d779820133cadad586_1772098560.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></div>
+            <div class="swiper-slide"><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/6defd830e63851cb7bc0d03d41e8ce3efc47758a_1771428230.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
